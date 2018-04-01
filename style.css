@@ -1,0 +1,226 @@
+/* Core style */
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Verdana, sanf-serif;
+}
+/* End of core style */
+.container {
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+}
+.button {
+	display: inline-block;
+}
+header {
+	min-height: 500px;
+}
+header .bg-image {
+	position: absolute;
+	z-index: -1;
+	height: 500px;
+	width: 100%;
+	min-width: 300px;
+	background-image: url("https://images.pexels.com/photos/906744/pexels-photo-906744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.content h1,
+.content h2 {
+	color: #fff;
+	text-align: center;
+	line-height: 1.5em;
+}
+.content h1 {
+	padding-top: 3.4em;
+	padding-bottom: 0.1em;
+	text-transform: uppercase;
+	font-family: Thomas New Roman, serif;
+	font-size: 3em;
+}
+#section-a {
+}
+#section-a h2{
+	padding: 20px 0px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.flex {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+.flex-2 {
+	display: flex;
+	justify-content: center;
+	min-height: 450px;
+	flex-flow: row wrap;
+}	
+.img1 {
+	height: 300px;
+	width: 300px;
+	background: url("https://images.pexels.com/photos/969254/pexels-photo-969254.jpeg?auto=compress&cs=tinysrgb&h=650&w=940") no-repeat center;
+	background-size: cover;
+}
+.img2 {
+	height: 300px;
+	width: 300px;
+	background: url("https://images.pexels.com/photos/969260/pexels-photo-969260.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center;
+	background-size: cover;
+}
+.img3 {
+	height: 300px;
+	width: 300px;
+	background: url("https://images.pexels.com/photos/971193/pexels-photo-971193.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center;
+	background-size: cover;
+}
+.img4 {
+	height: 300px;
+	width: 300px;
+	background: url("https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center;
+	background-size: cover;
+}
+.img5 {
+	height: 300px;
+	width: 300px;
+	background: url("https://images.pexels.com/photos/976917/pexels-photo-976917.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center;
+	background-size: cover;
+}
+.img6 {
+	height: 300px;
+	width: 300px;
+	background: url("https://images.pexels.com/photos/906746/pexels-photo-906746.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center;
+	background-size: cover;
+}
+.img7 {
+	height: 300px;
+	width: 300px;
+	background: url("https://images.pexels.com/photos/969257/pexels-photo-969257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center;
+	background-size: cover;
+}
+.img8 {
+	height: 300px;
+	width: 300px;
+	background: url("https://images.pexels.com/photos/541518/pexels-photo-541518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center;
+	background-size: cover;
+}
+.img9 {
+	min-height: 400px;
+	width: 100%;
+	background: url("https://images.pexels.com/photos/969254/pexels-photo-969254.jpeg?auto=compress&cs=tinysrgb&h=650&w=940") no-repeat center;
+	background-size: cover;
+}
+.img10 {
+	min-height: 400px;
+	width: 100%;
+	background: url("https://images.pexels.com/photos/969260/pexels-photo-969260.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center;
+	background-size: cover;
+}
+.img11 {
+	min-height: 400px;
+	width: 100%;
+	background: url("https://images.pexels.com/photos/969257/pexels-photo-969257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center;
+	background-size: cover;
+}
+.flex-3 a {
+	text-decoration: none;
+	color: black;
+}
+.flex-3 a:hover {
+	color: #333;
+}
+.box h3 {
+	margin: 0;
+	padding-bottom: 10px;
+}
+.box {
+	border: 0.5px solid #c8c8c8;
+	padding: 20px;	
+}
+.about {
+	background-color: #f8f8f8;
+}
+.about h2 {
+	padding: 15px 0px;
+	text-transform: uppercase;
+}
+.about p {
+	padding-bottom: 10px;
+	line-height: 1.5em;
+}
+form {
+	background-color: #333;
+	color: #fff;
+}
+form div {
+	padding: 10px;
+	padding-left: 0;
+}
+form label {
+	display: inline-block;
+	padding: 10px;
+	padding-left: 0;
+	width: 100%;
+}
+input, textarea {
+	width: 100%;
+}
+textarea {
+	min-height: 100px;
+}
+footer {
+	padding: 15px;
+}
+footer {
+	text-align: center;
+}
+footer span {
+	font-weight: bold;
+}
+input[type="submit"] {
+	background-color: #fff;
+	color: #333;
+	padding: 10px 15px;
+	letter-spacing: 2px;
+}
+@media screen and (min-width: 700px){
+	#section-b {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.about {
+		width: 50%;
+	}
+	form {
+		width: 50%;
+	}
+	textarea {
+		min-height: 200px;
+	}
+	.flex-3 {
+	display: flex;
+	padding-bottom: 25px;
+}
+	.flex-3 a:hover {
+	color: #fff;
+	background-color: #333;
+}
+}
+@media screen and (min-width: 700px){
+	.img9 {
+		height: 600px;
+		margin-bottom: 30px;
+		background-size: contain;
+	}
+	.img10 {
+		height: 600px;
+		margin-bottom: 30px;
+		background-size: contain;
+	}
+	.img11 {
+		height: 600px;
+		background-size: contain;
+	}
+}
