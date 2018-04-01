@@ -17,8 +17,9 @@ header {
 	height: 100vh;
 }
 header .bg-image {
-	position: absolute;
-	z-index: -1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 	height: 100vh;
 	width: 100%;
 	background-image: url("https://images.pexels.com/photos/906744/pexels-photo-906744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -26,14 +27,13 @@ header .bg-image {
 	background-repeat: no-repeat;
 	background-position: right center;
 }
-.content h1,
-.content h2 {
+.bg-image h1,
+.bg-image h2 {
 	color: #fff;
 	text-align: center;
 	line-height: 1.5em;
 }
-.content h1 {
-	padding-top: 4.5em;
+.bg-image h1 {
 	padding-bottom: 0.1em;
 	text-transform: uppercase;
 	font-family: Thomas New Roman, serif;
